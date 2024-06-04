@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    font-family: Calibri;
+    font-size: 11pt;
+}
+
+p {
+    -ms-defaultTabStop: 36pt;
+    line-height: 1.54;
+    margin-bottom: 8pt;
+    margin-top: 0pt;
+}
+
+p:empty {
+    height: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0pt;
+    empty-cells: hide;
+}
+
+td {
+    padding-bottom: 0pt;
+    padding-left: 5.75pt;
+    padding-right: 5.75pt;
+    padding-top: 0pt;
+    vertical-align: top;
+}
+
+.p-Heading1 {
+    -ms-outlineLvl: 0;
+    color: #2E74B5;
+    font-family: "Calibri Light";
+    font-size: 16pt;
+    margin-bottom: 0pt;
+    margin-top: 12pt;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.p-Heading2 {
+    -ms-outlineLvl: 1;
+    color: #2E74B5;
+    font-family: "Calibri Light";
+    font-size: 13pt;
+    margin-bottom: 0pt;
+    margin-top: 2pt;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.p-Normal {
+
+}
+
+.c-Heading3Char {
+    color: #1F4D78;
+    font-family: "Calibri Light";
+    font-size: 12pt;
+}
